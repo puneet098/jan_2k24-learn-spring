@@ -1,0 +1,30 @@
+package com.example.demo.myfirstwebapp.todo;
+
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class ToDoservice {
+	
+	private static List<ToDo> todos = new ArrayList<>();
+	
+	private static int todoCount = 0;
+	
+	static {
+		todos.add(new ToDo(++todoCount, "myLearning","Learn AWS",LocalDate.now().plusYears(1),false));
+		todos.add(new ToDo(++todoCount, "myLearning","Learn DevOps",LocalDate.now().plusYears(1),false));
+		todos.add(new ToDo(++todoCount, "myLearning","Learn Full Stack Develop..",LocalDate.now().plusYears(1),false));
+	}
+	
+	public List<ToDo> findByUsername(String username){
+		return todos;
+	}
+	
+	public void addTodo(String username, String description, LocalDate targetDate, boolean done) {
+		ToDo todo = new ToDo(++todoCount,username,description,targetDate,done);
+		todos.add(todo);
+	}
+}

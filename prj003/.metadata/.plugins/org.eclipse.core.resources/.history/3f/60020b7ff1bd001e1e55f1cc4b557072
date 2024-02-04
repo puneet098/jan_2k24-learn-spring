@@ -1,0 +1,5 @@
+package com.example.demo.myfirstwebapp.security;
+
+public class SpringSecurityConfiguration {
+
+}
