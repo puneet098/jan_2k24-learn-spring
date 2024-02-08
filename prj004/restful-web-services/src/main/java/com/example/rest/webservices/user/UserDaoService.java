@@ -7,6 +7,8 @@ import java.util.function.Predicate;
 
 import org.springframework.stereotype.Component;
 
+import com.example.rest.webservices.User;
+
 @Component
 public class UserDaoService {
 	// JPA/Hibernate > Database

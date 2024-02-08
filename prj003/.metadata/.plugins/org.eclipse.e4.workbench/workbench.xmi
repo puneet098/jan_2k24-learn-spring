@@ -10,7 +10,6 @@
     <persistedState key="workingSets" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workingSets/>"/>
     <persistedState key="aggregateWorkingSetId" value="Aggregate for window 1706119852301"/>
     <tags>topLevel</tags>
-    <tags>shellMaximized</tags>
     <children xsi:type="basic:PartSashContainer" xmi:id="_7GgRosDeEe6OMe1DIb4JNw" selectedElement="_7GgRo8DeEe6OMe1DIb4JNw" horizontal="true">
       <children xsi:type="advanced:PerspectiveStack" xmi:id="_7GgRo8DeEe6OMe1DIb4JNw" elementId="org.eclipse.ui.ide.perspectivestack" containerData="7500" selectedElement="_7GgRxMDeEe6OMe1DIb4JNw">
         <children xsi:type="advanced:Perspective" xmi:id="_7GgRpMDeEe6OMe1DIb4JNw" elementId="org.eclipse.jdt.ui.JavaPerspective" selectedElement="_7GgRpcDeEe6OMe1DIb4JNw" label="Java" iconURI="platform:/plugin/org.eclipse.jdt.ui/$nl$/icons/full/eview16/jperspective.png">
@@ -236,6 +235,7 @@
               <children xsi:type="basic:PartStack" xmi:id="_7GgRx8DeEe6OMe1DIb4JNw" elementId="org.eclipse.debug.internal.ui.NavigatorFolderView" containerData="5000" selectedElement="_7GgRycDeEe6OMe1DIb4JNw">
                 <tags>org.eclipse.e4.primaryNavigationStack</tags>
                 <tags>active</tags>
+                <tags>noFocus</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_7GgRyMDeEe6OMe1DIb4JNw" elementId="org.eclipse.debug.ui.DebugView" toBeRendered="false" ref="_7GhgIMDeEe6OMe1DIb4JNw" closeable="true">
                   <tags>View</tags>
                   <tags>categoryTag:Debug</tags>
@@ -381,7 +381,7 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_7Gg6UsDeEe6OMe1DIb4JNw" elementId="org.eclipse.ui.editorss" selectedElement="_7Gg6U8DeEe6OMe1DIb4JNw">
-      <children xsi:type="basic:PartStack" xmi:id="_7Gg6U8DeEe6OMe1DIb4JNw" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_yCGuwMOYEe6U3_d--hPAIg">
+      <children xsi:type="basic:PartStack" xmi:id="_7Gg6U8DeEe6OMe1DIb4JNw" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_GUzacMD9Ee6_pdCCd9icYg">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
         <children xsi:type="basic:Part" xmi:id="_7Gg6VMDeEe6OMe1DIb4JNw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="myfirstwebapp/pom.xml" iconURI="platform:/plugin/org.eclipse.m2e.editor/icons/editor-pom.gif" closeable="true">
@@ -397,7 +397,7 @@
           <tags>org.eclipse.m2e.editor.MavenPomEditor</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_GUzacMD9Ee6_pdCCd9icYg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="application.properties" iconURI="platform:/plugin/org.springframework.tooling.boot.ls/icons/spring_obj.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;SpringBootPropertyEditor&quot; name=&quot;application.properties&quot; partName=&quot;application.properties&quot; title=&quot;application.properties&quot; tooltip=&quot;myfirstwebapp/src/main/resources/application.properties&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/myfirstwebapp/src/main/resources/application.properties&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;982&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;SpringBootPropertyEditor&quot; name=&quot;application.properties&quot; partName=&quot;application.properties&quot; title=&quot;application.properties&quot; tooltip=&quot;myfirstwebapp/src/main/resources/application.properties&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/myfirstwebapp/src/main/resources/application.properties&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;148&quot; selectionOffset=&quot;887&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>SpringBootPropertyEditor</tags>
@@ -689,7 +689,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_7GhgRsDeEe6OMe1DIb4JNw" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_om8b4MOYEe6U3_d--hPAIg" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_7GlLW8DeEe6OMe1DIb4JNw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_hcLSUMaNEe6zn5GJtBuCTQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_7GlLW8DeEe6OMe1DIb4JNw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_7GhgU8DeEe6OMe1DIb4JNw" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -697,8 +697,8 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_7GhgVcDeEe6OMe1DIb4JNw" elementId="org.eclipse.ui.workbench.edit">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_om_fMMOYEe6U3_d--hPAIg" elementId="undo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/undo_edit.png" tooltip="Undo" enabled="false" command="_7GkjesDeEe6OMe1DIb4JNw"/>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_onAGQMOYEe6U3_d--hPAIg" elementId="redo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/redo_edit.png" tooltip="Redo" enabled="false" command="_7GlKIMDeEe6OMe1DIb4JNw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_hcO8sMaNEe6zn5GJtBuCTQ" elementId="undo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/undo_edit.png" tooltip="Undo" enabled="false" command="_7GkjesDeEe6OMe1DIb4JNw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_hcPjwMaNEe6zn5GJtBuCTQ" elementId="redo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/redo_edit.png" tooltip="Redo" enabled="false" command="_7GlKIMDeEe6OMe1DIb4JNw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_7GhgWcDeEe6OMe1DIb4JNw" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -713,7 +713,7 @@
       <children xsi:type="menu:ToolBar" xmi:id="_7GhgfcDeEe6OMe1DIb4JNw" elementId="org.eclipse.search.searchActionSet">
         <tags>Draggable</tags>
       </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_7GhggcDeEe6OMe1DIb4JNw" elementId="org.eclipse.ui.edit.text.actionSet.presentation">
+      <children xsi:type="menu:ToolBar" xmi:id="_7GhggcDeEe6OMe1DIb4JNw" elementId="org.eclipse.ui.edit.text.actionSet.presentation" visible="false">
         <tags>Draggable</tags>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_7Ghgi8DeEe6OMe1DIb4JNw" elementId="group.nav" toBeRendered="false">
@@ -722,7 +722,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_7GhgjcDeEe6OMe1DIb4JNw" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_onCigMOYEe6U3_d--hPAIg" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_7GlLFsDeEe6OMe1DIb4JNw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_hcRY8MaNEe6zn5GJtBuCTQ" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_7GlLFsDeEe6OMe1DIb4JNw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_7GhgmsDeEe6OMe1DIb4JNw" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
