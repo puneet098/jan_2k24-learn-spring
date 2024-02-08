@@ -1,4 +1,4 @@
-package com.example.rest.webservices.user;
+package com.example.rest.webservices;
 
 import com.example.rest.webservices.User;
 import com.fasterxml.jackson.annotation.JsonIgnore;
