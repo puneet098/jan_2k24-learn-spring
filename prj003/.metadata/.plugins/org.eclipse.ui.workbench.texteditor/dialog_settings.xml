@@ -6,8 +6,9 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="spring"/>
+		<item key="selection" value="postgresql"/>
 		<list key="findhistory">
+			<item value="postgresql"/>
 			<item value="spring"/>
 			<item value="mvc"/>
 			<item value="&lt;dependency&gt;"/>
